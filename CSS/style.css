@@ -443,6 +443,7 @@ header {
 .tech-image {
     filter: grayscale(100%);
     transition: 0.2s ease;
+    padding: 35px;
 }
 .tech-item:hover .tech-image {
     filter: grayscale(0);
