@@ -238,7 +238,7 @@ header {
     width: 90px;
     height: 90px;
     position: absolute;
-    left: -46px;
+    left: -30px;
     top: calc(50% - 45px);
 }
 .section-about {
@@ -491,22 +491,20 @@ header {
 .section-tarif {
     padding-top: 150px;
 }
-.tarif {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 .tarif-item {
     border-bottom: 1px solid #F3F2F0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 33px;
+    height: 268px;
 }
 .tarif-title {
     font-size: 28px;
-    font-weight: 700;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     border-bottom: 1px solid #F3F2F0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .tarif-title > div {
     position: relative;
